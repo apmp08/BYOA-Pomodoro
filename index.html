@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- This is the main container for our waves -->
+    <div class="wave-container">
+        <!-- We create 3 waves, each will move differently -->
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <!-- This is our main timer container -->
+    <div class="container">
+        <!-- The container for our timer numbers -->
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <!-- Container for our buttons -->
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+            <button id="mode-toggle">Switch to Break</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
