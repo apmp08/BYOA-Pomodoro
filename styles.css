@@ -67,33 +67,6 @@ h1 {
     background-color: #feb2b2;
 }
 
-#mode-toggle.work-mode {
-    background-color: #b2f5ea;
-    color: #234e52;
-}
-
-#mode-toggle.work-mode:hover {
-    background-color: #81e6d9;
-}
-
-#mode-toggle.rest-mode {
-    background-color: #bee3f8;
-    color: #2c5282;
-}
-
-#mode-toggle.rest-mode:hover {
-    background-color: #90cdf4;
-}
-
-#mode-toggle {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 0.8rem;
-    padding: 0.5rem 1rem;
-    margin: 0;
-}
-
 .status {
     margin-top: 1.5rem;
 }
