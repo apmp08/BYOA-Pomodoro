@@ -49,7 +49,6 @@ function startTimer() {
             updateDisplay();
             
             if (timeLeft === 0) {
-                alert(isWorkTime ? 'Work time is over! Take a break!' : 'Break is over! Back to work!');
                 switchMode();
             }
         }, 1000);
@@ -81,7 +80,7 @@ modeToggleButton.addEventListener('click', () => {
     if (!isRunning) {
         switchMode();
     } else {
-        alert('Please pause the timer before switching modes');
+        return;
     }
 });
 
